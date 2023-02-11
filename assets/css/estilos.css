@@ -1,4 +1,3 @@
-@import url(media-query.css);
 
 :root {
   --cinza: #aaa;
@@ -40,12 +39,11 @@ h1 {
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);
   cursor: pointer;
-  height: 170px;
+  height: 15vh;
   font-size: 1.75em;
   font-weight: bold;
-  line-height: 120px;
   text-align: center;
-  width: 170px;
+  width: 18vh;
 }
 
 .tecla.ativa,

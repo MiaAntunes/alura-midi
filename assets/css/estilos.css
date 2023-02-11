@@ -1,3 +1,5 @@
+@import url(media-query.css);
+
 :root {
   --cinza: #aaa;
   --vermelha: #e93d50;
@@ -8,7 +10,7 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(45deg, #dfa7a7 0%,#00657e 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -19,7 +21,7 @@ body {
 h1 {
   color: var(--branca);
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .teclado {
@@ -38,12 +40,12 @@ h1 {
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);
   cursor: pointer;
-  height: 120px;
+  height: 170px;
   font-size: 1.75em;
   font-weight: bold;
   line-height: 120px;
   text-align: center;
-  width: 120px;
+  width: 170px;
 }
 
 .tecla.ativa,
